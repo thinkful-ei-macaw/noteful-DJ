@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header(){
   return (
     <header>
-      <h1><a href="route">Noteful</a></h1>
+      <h1><Link to="/">Noteful</Link></h1>
     </header>
   )
 }

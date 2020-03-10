@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Folders(props) {
+  console.log(props)
   return (
     <div>
       <ul>
